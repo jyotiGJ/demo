@@ -11,5 +11,6 @@ public class Demo1Application {
 	ConfigurableApplicationContext context = SpringApplication.run(Demo1Application.class, args);
 	Employee emp = context.getBean(Employee.class);
 	emp.show(); 
+	// This is just a sample
 	}
 }
